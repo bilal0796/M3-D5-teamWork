@@ -445,8 +445,8 @@ hr {
   cursor: pointer;
   color: springgreen;
 }
-/* artist page statrs here */
-/* .posted {
+/* artist page statrs here
+.posted {
   font-weight: 100;
   font-size: smaller;
 }
@@ -489,8 +489,8 @@ h6 {
 
 table > thead > tr {
   border-bottom: 1px solid var(--spotify-grey);
-} */
+}
 
 
 
-
+ */

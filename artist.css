@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,900&family=Raleway:ital,wght@0,900;1,900&family=Roboto+Mono:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,300&display=swap");
+:root {
+  --main-font: "Montserrat", sans-serif;
+  --spotify-green: #1db954;
+  --spotify-grey: #8a8a8a;
+  --spotify-white: #eaeaea;
+  --spotify-dark-bg: #181818;
+  --spotify-darker-bg: #121212;
+}
+h4,
+.podcast-title {
+  color: var(--spotify-white);
+}
+
+
+h5,
+p {
+  color: var(--spotify-white);
+}
+h5 {
+  font-size: 18px;
+}
+.card:hover {
+  transform: scale(1);
+  opacity: 1;
+}
+.see-all2 {
+  position: absolute;
+  right: 0;
+  left: 90%;
+  top: 68%;
+  color: var(--spotify-grey);
+}
+
+
+.centre-section-container {
+    background: var(--spotify-darker-bg);
+}
+
+
+
+
+/* start of navbar styles */
+body {
+    font-family: var(--main-font);
+    font-weight: 500;
+    background: var(--spotify-dark-bg);
+}
+
+
+
+  
+  
+/* starting point of jumbotron */
+
+.bi {
+  color: var(--spotify-white);
+  font-family: var(--main-font);
+}
+.progress {
+  z-index: 1;
+  font-family: var(--main-font);
+}
+.main-container2 {
+  justify-items: center;
+}
+
+.center {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.slide {
+  width: 100%;
+  background: rgb(61, 57, 57);
+  height: 5px;
+}
+.range {
+  width: 10%;
+  background: rgb(219, 213, 213);
+  height: 5px;
+}
+
+
+.jumbo-img {
+  height: 40vh;
+  padding-left: 100px;
+  object-fit:cover;
+  ;
+}
+.verified-artist-container {
+  position: absolute;
+  top: 56%;
+  left: 13%;
+  z-index: 2;
+}
+.verified-artist-container i {
+  color: rgb(101, 101, 233);
+}
+.verified-artist-container span {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.jumbo-title {
+  position: absolute;
+  font-family: "Raleway", sans-serif;
+  font-size: 58px;
+  top: 65%;
+  left: 13%;
+  color: var(--spotify-white);
+}
+.jumbo-parag {
+  position: absolute;
+  top: 88%;
+  left: 12%;
+  font-family: "Rubik", sans-serif;
+}
+.jumbo-img {
+  opacity: 0.5;
+}
+
+/* end of jumbotron */
+
+.navbar-top-container {
+  position: absolute;
+  top: 12%;
+  left: 0;
+  margin-right: 50px;
+  z-index: 3;
+}
+
+/* ARTIST PAGE CSS BEGINS HERE */
+
+.posted {
+  font-weight: 100;
+  font-size: smaller;
+}
+
+.smallh6,
+th,
+td,
+h6 {
+  font-family: var(--main-font);
+  color: var(--spotify-white);
+}
+.smallh6 {
+  font-weight: 200;
+}
+.img-table {
+  height: 60px;
+  width: 60px;
+}
+.artist-pick-text {
+  float: right;
+}
+.artist-pick-text {
+  color: var(--spotify-grey);
+  font-weight: lighter;
+}
+.artist-pick-image {
+  height: 110px;
+  width: 110px;
+}
+.small-image {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.playlist {
+  color: var(--spotify-white);
+  font-weight: 100;
+  font-size: smaller;
+}
+
+table > thead > tr {
+  border-bottom: 1px solid var(--spotify-grey);
+}
+
+/* ARTIST PAGE CSS ENDS  HERE */
+
+
+
+
+
