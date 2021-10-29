@@ -436,7 +436,7 @@ hr {
   -webkit-justify-content: space-between;
   -moz-justify-content: space-between;
   justify-content: space-between;
-  width: 260px;
+  width: 200px;
   height: 70px;
 }
 .card:hover {
