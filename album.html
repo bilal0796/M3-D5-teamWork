@@ -575,6 +575,42 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+    <script>
+      // Code at the start of the page
+      window.onload = () => {
+        loadAlbum();
+      }
+
+      const loadAlbum = () => {
+        fetch('https://striveschool-api.herokuapp.com/api/deezer/album/915785')
+
+        .then((Data) => {
+        console.log(Data)
+        return Data.json();
+      })
+
+        .then((json) => {
+        console.log(json)
+        //Album Cover
+        document.querySelector("img.img").src=json.cover_big
+        
+        //Album Title
+        document.querySelector("h1.title").innerText=json.title
+
+        //Artist Name
+        document.querySelector("a.album-link").innerText=json.artist.name        
+        
+        //Artist Image
+        document.querySelector("img.small-artist-img").src=json.artist.picture_small
+
+        //Track List
+        
+
+      })
+      }
+
+      
+    </script>
     <script src="artist.js"></script>
     <script src="app.js"></script>
   </body>
