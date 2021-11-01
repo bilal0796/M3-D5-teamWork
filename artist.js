@@ -1,4 +1,4 @@
-let jumboContainer = document.querySelector(".jumboConatainer")
+let jumboContainer = document.querySelector(".jumboContainer")
 let buttonsThreeDots = document.querySelector(".buttonsThreeDots ")
 
     window.onload = ()=> {
